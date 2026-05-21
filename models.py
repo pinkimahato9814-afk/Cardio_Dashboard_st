@@ -4,7 +4,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, confusion_matrix
 
-df = pd.read_csv('Cardiovascular_Disease.csv')
+#df = pd.read_csv('Cardiovascular_Disease.csv')
+df = pd.read_csv("C:/Users/pinki/OneDrive/Desktop/Machine_learning_indetails/Streamlit/Cardio_streamlit/Cardiovascular_Disease.csv")
 
 # Data Cleaning
 df['age'] = round(df['age']/365, 2)
